@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SINGAPO MVP</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "./vendor/three/build/three.module.js"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <main class="container">
+      <header class="page-header">
+        <h1>可动三维生成可视化系统</h1>
+        <p>单视图输入 -> 推理 -> 可动三维交互展示</p>
+      </header>
+
+      <section class="top-grid">
+        <div class="card left-panel">
+          <h2>输入与任务</h2>
+          <p class="muted">可点击 demo 图自动上传，或手动选择本地图片。</p>
+          <div id="demoGallery" class="demo-gallery">
+            <button id="demoUploadBtn" class="demo-item" type="button">
+              <img id="demoImage" alt="demo 输入图" />
+              <span>使用 Demo 输入图</span>
+            </button>
+          </div>
+
+          <div class="upload-row">
+            <input id="imageInput" type="file" accept=".png,.jpg,.jpeg,.webp" />
+            <button id="uploadBtn">上传</button>
+            <button id="taskBtn">开始生成</button>
+          </div>
+
+          <p id="uploadStatus"></p>
+          <p id="taskStatus"></p>
+          <div class="progress-wrap">
+            <div id="taskProgressBar" class="progress-bar"></div>
+          </div>
+          <p id="taskProgressText">总体进度: 0%</p>
+          <img id="inputPreview" alt="输入预览" />
+        </div>
+
+        <div class="card right-panel">
+          <h2>可视化交互</h2>
+          <p id="resultStatus"></p>
+          <div class="viewer-wrap">
+            <div id="viewerStatus" class="viewer-status">模型查看区域（等待结果）</div>
+            <div id="viewerContainer" class="viewer-container"></div>
+            <div class="joint-toolbar">
+              <button id="resetPoseBtn" type="button">复位姿态</button>
+              <button id="toggleFullscreenBtn" type="button">全屏查看</button>
+            </div>
+            <div id="jointPanel" class="joint-panel"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>详细输出</h2>
+        <div id="resultCards" class="result-cards"></div>
+        <div id="resultLinks"></div>
+        <img id="resultPreview" alt="结果预览" />
+        <pre id="resultJson"></pre>
+      </section>
+    </main>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
