@@ -1,0 +1,11 @@
+{
+    "diffuse_tree": [
+        {
+            "id": 0,
+            "parent": -1,
+            "name": "base",
+            "children": []
+        }
+    ],
+    "original_response": "This image appears to be a table. Since it has no visible articulated parts like doors, drawers, handles, or knobs, it consists of only a base.\n\nThe part connectivity graph for the object is:\n```json\n{\"base\": []}\n```"
+}

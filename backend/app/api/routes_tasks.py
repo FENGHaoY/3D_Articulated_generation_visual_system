@@ -29,7 +29,10 @@ def create_task(
         break
     if input_path is None:
         raise HTTPException(status_code=404, detail="Upload not found")
-    return task_service.create_task(request, input_path=input_path)
+    try:
+        return task_service.create_task(request, input_path=input_path)
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
 
 
 @router.get("/api/tasks", response_model=list[TaskRecord])

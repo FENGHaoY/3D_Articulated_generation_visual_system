@@ -27,11 +27,16 @@ class TaskService:
         self.results_dir = results_dir
         self.static_url_service = static_url_service
         self.default_use_example_graph = default_use_example_graph
+        self.pm_test_graph_dir = (
+            self.runner.singapo_root / "exps" / "pred_graph" / "pred_graph" / "pm_test"
+        )
 
     def create_task(self, request: CreateTaskRequest, input_path: Path) -> TaskRecord:
         now = self.storage.now()
         task_id = uuid4().hex
         output_dir = self.results_dir / task_id
+
+        requested_pred_graph_path = self._resolve_demo_graph_path(request.demo_sample_id)
 
         task = TaskRecord(
             task_id=task_id,
@@ -42,6 +47,10 @@ class TaskService:
             progress=0,
             created_at=now,
             updated_at=now,
+            requested_demo_sample_id=request.demo_sample_id,
+            requested_pred_graph_path=str(requested_pred_graph_path)
+            if requested_pred_graph_path is not None
+            else None,
         )
         self.storage.create_task(task)
 
@@ -60,6 +69,7 @@ class TaskService:
                 request.n_denoise_steps,
                 request.omega,
                 use_example_graph,
+                requested_pred_graph_path,
             ),
             daemon=True,
         )
@@ -75,6 +85,7 @@ class TaskService:
         n_denoise_steps: int,
         omega: float,
         use_example_graph: bool,
+        requested_pred_graph_path: Path | None,
     ) -> None:
         self.storage.update_task(task_id, status="running", progress=5, error=None)
         try:
@@ -93,6 +104,7 @@ class TaskService:
                 n_denoise_steps=n_denoise_steps,
                 omega=omega,
                 use_example_graph=use_example_graph,
+                pred_graph_override_path=requested_pred_graph_path,
                 progress_callback=update_progress,
             )
 
@@ -165,4 +177,20 @@ class TaskService:
                 task_id, status="failed", progress=100, error=str(exc)
             )
             self.result_organizer.build_and_write(updated)
+
+    def _resolve_demo_graph_path(self, demo_sample_id: str | None) -> Path | None:
+        if not demo_sample_id:
+            return None
+        parts = demo_sample_id.split("@")
+        if len(parts) != 3 or any(not p for p in parts):
+            raise ValueError(
+                f"Invalid demo_sample_id={demo_sample_id!r}, expected <Category>@<model_id>@<view_id>"
+            )
+        candidate = (self.pm_test_graph_dir / f"{demo_sample_id}.json").resolve()
+        pm_root = self.pm_test_graph_dir.resolve()
+        if pm_root not in candidate.parents or not candidate.exists():
+            raise ValueError(
+                f"demo_sample_id={demo_sample_id!r} has no matching pred_graph under {pm_root}"
+            )
+        return candidate
 

@@ -16,6 +16,7 @@ Thumbs.db
 # 忽略包含敏感信息的配置文件
 .env
 config/settings.local.py
+.ipynb_checkpoints
 
 # 忽略某个具体的文件夹下的所有内容，但不忽略文件夹本身
 dist/*

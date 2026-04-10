@@ -15,6 +15,7 @@ class CreateTaskRequest(BaseModel):
     n_denoise_steps: int = Field(default=100, ge=10, le=200)
     omega: float = Field(default=0.5, ge=0.0, le=3.0)
     use_example_graph: Optional[bool] = None
+    demo_sample_id: Optional[str] = None
 
 
 class TaskRecord(BaseModel):
@@ -28,6 +29,8 @@ class TaskRecord(BaseModel):
     updated_at: datetime
     error: Optional[str] = None
     pred_graph_url: Optional[str] = None
+    requested_demo_sample_id: Optional[str] = None
+    requested_pred_graph_path: Optional[str] = None
     samples: list[str] = Field(default_factory=list)
     sample_urls: list[str] = Field(default_factory=list)
     result_dir: Optional[str] = None

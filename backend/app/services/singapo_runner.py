@@ -71,6 +71,7 @@ class SingapoRunner:
         n_denoise_steps: int,
         omega: float,
         use_example_graph: bool,
+        pred_graph_override_path: Path | None = None,
         progress_callback: Callable[[int], None] | None = None,
     ) -> SingapoRunResult:
         task_result_dir = self.outputs_dir / task_id
@@ -84,6 +85,7 @@ class SingapoRunner:
             n_denoise_steps=n_denoise_steps,
             omega=omega,
             use_example_graph=use_example_graph,
+            pred_graph_override_path=pred_graph_override_path,
         )
 
         child_env = os.environ.copy()
@@ -163,6 +165,9 @@ class SingapoRunner:
             "task_result_dir": str(task_result_dir),
             "input_image": str(img_path),
             "pred_graph_path": str(pred_graph_path) if pred_graph_path else None,
+            "pred_graph_override_path": str(pred_graph_override_path)
+            if pred_graph_override_path is not None
+            else None,
             "mesh_file_path": str(mesh_file_path) if mesh_file_path else None,
             "preview_asset_path": str(preview_asset_path) if preview_asset_path else None,
             "sample_object_json_paths": [str(p) for p in sample_object_json_paths],
@@ -192,6 +197,7 @@ class SingapoRunner:
         n_denoise_steps: int,
         omega: float,
         use_example_graph: bool,
+        pred_graph_override_path: Path | None = None,
     ) -> list[str]:
         cmd: list[str] = [self.resolved_python]
 
@@ -212,6 +218,8 @@ class SingapoRunner:
                 str(omega),
             ]
         )
+        if pred_graph_override_path is not None:
+            cmd.extend(["--pred_graph_path", str(pred_graph_override_path)])
         if use_example_graph:
             cmd.append("--use_example_graph")
         return cmd

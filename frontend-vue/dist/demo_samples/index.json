@@ -1,0 +1,1590 @@
+{
+  "generated_at": "2026-04-10T07:21:26.769216+00:00",
+  "total_samples": 154,
+  "category_count": 7,
+  "categories": [
+    {
+      "name": "Dishwasher",
+      "count": 8,
+      "samples": [
+        {
+          "id": "Dishwasher@12414@18",
+          "category": "Dishwasher",
+          "model_id": "12414",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/Dishwasher/12414/18.png",
+          "graph_url": "/demo_samples/graphs/Dishwasher/12414/18.json",
+          "source_image_path": "data/Dishwasher/12414/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Dishwasher@12414@18.json"
+        },
+        {
+          "id": "Dishwasher@12414@19",
+          "category": "Dishwasher",
+          "model_id": "12414",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/Dishwasher/12414/19.png",
+          "graph_url": "/demo_samples/graphs/Dishwasher/12414/19.json",
+          "source_image_path": "data/Dishwasher/12414/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Dishwasher@12414@19.json"
+        },
+        {
+          "id": "Dishwasher@12562@18",
+          "category": "Dishwasher",
+          "model_id": "12562",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/Dishwasher/12562/18.png",
+          "graph_url": "/demo_samples/graphs/Dishwasher/12562/18.json",
+          "source_image_path": "data/Dishwasher/12562/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Dishwasher@12562@18.json"
+        },
+        {
+          "id": "Dishwasher@12562@19",
+          "category": "Dishwasher",
+          "model_id": "12562",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/Dishwasher/12562/19.png",
+          "graph_url": "/demo_samples/graphs/Dishwasher/12562/19.json",
+          "source_image_path": "data/Dishwasher/12562/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Dishwasher@12562@19.json"
+        },
+        {
+          "id": "Dishwasher@12587@18",
+          "category": "Dishwasher",
+          "model_id": "12587",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/Dishwasher/12587/18.png",
+          "graph_url": "/demo_samples/graphs/Dishwasher/12587/18.json",
+          "source_image_path": "data/Dishwasher/12587/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Dishwasher@12587@18.json"
+        },
+        {
+          "id": "Dishwasher@12587@19",
+          "category": "Dishwasher",
+          "model_id": "12587",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/Dishwasher/12587/19.png",
+          "graph_url": "/demo_samples/graphs/Dishwasher/12587/19.json",
+          "source_image_path": "data/Dishwasher/12587/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Dishwasher@12587@19.json"
+        },
+        {
+          "id": "Dishwasher@12592@18",
+          "category": "Dishwasher",
+          "model_id": "12592",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/Dishwasher/12592/18.png",
+          "graph_url": "/demo_samples/graphs/Dishwasher/12592/18.json",
+          "source_image_path": "data/Dishwasher/12592/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Dishwasher@12592@18.json"
+        },
+        {
+          "id": "Dishwasher@12592@19",
+          "category": "Dishwasher",
+          "model_id": "12592",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/Dishwasher/12592/19.png",
+          "graph_url": "/demo_samples/graphs/Dishwasher/12592/19.json",
+          "source_image_path": "data/Dishwasher/12592/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Dishwasher@12592@19.json"
+        }
+      ]
+    },
+    {
+      "name": "Microwave",
+      "count": 2,
+      "samples": [
+        {
+          "id": "Microwave@7320@18",
+          "category": "Microwave",
+          "model_id": "7320",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/Microwave/7320/18.png",
+          "graph_url": "/demo_samples/graphs/Microwave/7320/18.json",
+          "source_image_path": "data/Microwave/7320/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Microwave@7320@18.json"
+        },
+        {
+          "id": "Microwave@7320@19",
+          "category": "Microwave",
+          "model_id": "7320",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/Microwave/7320/19.png",
+          "graph_url": "/demo_samples/graphs/Microwave/7320/19.json",
+          "source_image_path": "data/Microwave/7320/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Microwave@7320@19.json"
+        }
+      ]
+    },
+    {
+      "name": "Oven",
+      "count": 4,
+      "samples": [
+        {
+          "id": "Oven@7130@18",
+          "category": "Oven",
+          "model_id": "7130",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/Oven/7130/18.png",
+          "graph_url": "/demo_samples/graphs/Oven/7130/18.json",
+          "source_image_path": "data/Oven/7130/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Oven@7130@18.json"
+        },
+        {
+          "id": "Oven@7130@19",
+          "category": "Oven",
+          "model_id": "7130",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/Oven/7130/19.png",
+          "graph_url": "/demo_samples/graphs/Oven/7130/19.json",
+          "source_image_path": "data/Oven/7130/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Oven@7130@19.json"
+        },
+        {
+          "id": "Oven@7179@18",
+          "category": "Oven",
+          "model_id": "7179",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/Oven/7179/18.png",
+          "graph_url": "/demo_samples/graphs/Oven/7179/18.json",
+          "source_image_path": "data/Oven/7179/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Oven@7179@18.json"
+        },
+        {
+          "id": "Oven@7179@19",
+          "category": "Oven",
+          "model_id": "7179",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/Oven/7179/19.png",
+          "graph_url": "/demo_samples/graphs/Oven/7179/19.json",
+          "source_image_path": "data/Oven/7179/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Oven@7179@19.json"
+        }
+      ]
+    },
+    {
+      "name": "Refrigerator",
+      "count": 8,
+      "samples": [
+        {
+          "id": "Refrigerator@10347@18",
+          "category": "Refrigerator",
+          "model_id": "10347",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/Refrigerator/10347/18.png",
+          "graph_url": "/demo_samples/graphs/Refrigerator/10347/18.json",
+          "source_image_path": "data/Refrigerator/10347/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Refrigerator@10347@18.json"
+        },
+        {
+          "id": "Refrigerator@10347@19",
+          "category": "Refrigerator",
+          "model_id": "10347",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/Refrigerator/10347/19.png",
+          "graph_url": "/demo_samples/graphs/Refrigerator/10347/19.json",
+          "source_image_path": "data/Refrigerator/10347/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Refrigerator@10347@19.json"
+        },
+        {
+          "id": "Refrigerator@10685@18",
+          "category": "Refrigerator",
+          "model_id": "10685",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/Refrigerator/10685/18.png",
+          "graph_url": "/demo_samples/graphs/Refrigerator/10685/18.json",
+          "source_image_path": "data/Refrigerator/10685/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Refrigerator@10685@18.json"
+        },
+        {
+          "id": "Refrigerator@10685@19",
+          "category": "Refrigerator",
+          "model_id": "10685",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/Refrigerator/10685/19.png",
+          "graph_url": "/demo_samples/graphs/Refrigerator/10685/19.json",
+          "source_image_path": "data/Refrigerator/10685/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Refrigerator@10685@19.json"
+        },
+        {
+          "id": "Refrigerator@11846@18",
+          "category": "Refrigerator",
+          "model_id": "11846",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/Refrigerator/11846/18.png",
+          "graph_url": "/demo_samples/graphs/Refrigerator/11846/18.json",
+          "source_image_path": "data/Refrigerator/11846/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Refrigerator@11846@18.json"
+        },
+        {
+          "id": "Refrigerator@11846@19",
+          "category": "Refrigerator",
+          "model_id": "11846",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/Refrigerator/11846/19.png",
+          "graph_url": "/demo_samples/graphs/Refrigerator/11846/19.json",
+          "source_image_path": "data/Refrigerator/11846/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Refrigerator@11846@19.json"
+        },
+        {
+          "id": "Refrigerator@12252@18",
+          "category": "Refrigerator",
+          "model_id": "12252",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/Refrigerator/12252/18.png",
+          "graph_url": "/demo_samples/graphs/Refrigerator/12252/18.json",
+          "source_image_path": "data/Refrigerator/12252/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Refrigerator@12252@18.json"
+        },
+        {
+          "id": "Refrigerator@12252@19",
+          "category": "Refrigerator",
+          "model_id": "12252",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/Refrigerator/12252/19.png",
+          "graph_url": "/demo_samples/graphs/Refrigerator/12252/19.json",
+          "source_image_path": "data/Refrigerator/12252/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Refrigerator@12252@19.json"
+        }
+      ]
+    },
+    {
+      "name": "StorageFurniture",
+      "count": 110,
+      "samples": [
+        {
+          "id": "StorageFurniture@35059@18",
+          "category": "StorageFurniture",
+          "model_id": "35059",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/35059/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/35059/18.json",
+          "source_image_path": "data/StorageFurniture/35059/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@35059@18.json"
+        },
+        {
+          "id": "StorageFurniture@35059@19",
+          "category": "StorageFurniture",
+          "model_id": "35059",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/35059/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/35059/19.json",
+          "source_image_path": "data/StorageFurniture/35059/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@35059@19.json"
+        },
+        {
+          "id": "StorageFurniture@41086@18",
+          "category": "StorageFurniture",
+          "model_id": "41086",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/41086/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/41086/18.json",
+          "source_image_path": "data/StorageFurniture/41086/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@41086@18.json"
+        },
+        {
+          "id": "StorageFurniture@41086@19",
+          "category": "StorageFurniture",
+          "model_id": "41086",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/41086/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/41086/19.json",
+          "source_image_path": "data/StorageFurniture/41086/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@41086@19.json"
+        },
+        {
+          "id": "StorageFurniture@44826@18",
+          "category": "StorageFurniture",
+          "model_id": "44826",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/44826/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/44826/18.json",
+          "source_image_path": "data/StorageFurniture/44826/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@44826@18.json"
+        },
+        {
+          "id": "StorageFurniture@44826@19",
+          "category": "StorageFurniture",
+          "model_id": "44826",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/44826/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/44826/19.json",
+          "source_image_path": "data/StorageFurniture/44826/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@44826@19.json"
+        },
+        {
+          "id": "StorageFurniture@45135@18",
+          "category": "StorageFurniture",
+          "model_id": "45135",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/45135/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45135/18.json",
+          "source_image_path": "data/StorageFurniture/45135/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45135@18.json"
+        },
+        {
+          "id": "StorageFurniture@45135@19",
+          "category": "StorageFurniture",
+          "model_id": "45135",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/45135/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45135/19.json",
+          "source_image_path": "data/StorageFurniture/45135/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45135@19.json"
+        },
+        {
+          "id": "StorageFurniture@45162@18",
+          "category": "StorageFurniture",
+          "model_id": "45162",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/45162/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45162/18.json",
+          "source_image_path": "data/StorageFurniture/45162/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45162@18.json"
+        },
+        {
+          "id": "StorageFurniture@45162@19",
+          "category": "StorageFurniture",
+          "model_id": "45162",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/45162/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45162/19.json",
+          "source_image_path": "data/StorageFurniture/45162/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45162@19.json"
+        },
+        {
+          "id": "StorageFurniture@45173@18",
+          "category": "StorageFurniture",
+          "model_id": "45173",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/45173/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45173/18.json",
+          "source_image_path": "data/StorageFurniture/45173/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45173@18.json"
+        },
+        {
+          "id": "StorageFurniture@45173@19",
+          "category": "StorageFurniture",
+          "model_id": "45173",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/45173/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45173/19.json",
+          "source_image_path": "data/StorageFurniture/45173/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45173@19.json"
+        },
+        {
+          "id": "StorageFurniture@45219@18",
+          "category": "StorageFurniture",
+          "model_id": "45219",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/45219/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45219/18.json",
+          "source_image_path": "data/StorageFurniture/45219/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45219@18.json"
+        },
+        {
+          "id": "StorageFurniture@45219@19",
+          "category": "StorageFurniture",
+          "model_id": "45219",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/45219/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45219/19.json",
+          "source_image_path": "data/StorageFurniture/45219/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45219@19.json"
+        },
+        {
+          "id": "StorageFurniture@45235@18",
+          "category": "StorageFurniture",
+          "model_id": "45235",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/45235/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45235/18.json",
+          "source_image_path": "data/StorageFurniture/45235/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45235@18.json"
+        },
+        {
+          "id": "StorageFurniture@45235@19",
+          "category": "StorageFurniture",
+          "model_id": "45235",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/45235/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45235/19.json",
+          "source_image_path": "data/StorageFurniture/45235/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45235@19.json"
+        },
+        {
+          "id": "StorageFurniture@45323@18",
+          "category": "StorageFurniture",
+          "model_id": "45323",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/45323/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45323/18.json",
+          "source_image_path": "data/StorageFurniture/45323/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45323@18.json"
+        },
+        {
+          "id": "StorageFurniture@45323@19",
+          "category": "StorageFurniture",
+          "model_id": "45323",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/45323/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45323/19.json",
+          "source_image_path": "data/StorageFurniture/45323/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45323@19.json"
+        },
+        {
+          "id": "StorageFurniture@45415@18",
+          "category": "StorageFurniture",
+          "model_id": "45415",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/45415/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45415/18.json",
+          "source_image_path": "data/StorageFurniture/45415/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45415@18.json"
+        },
+        {
+          "id": "StorageFurniture@45415@19",
+          "category": "StorageFurniture",
+          "model_id": "45415",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/45415/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45415/19.json",
+          "source_image_path": "data/StorageFurniture/45415/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45415@19.json"
+        },
+        {
+          "id": "StorageFurniture@45423@18",
+          "category": "StorageFurniture",
+          "model_id": "45423",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/45423/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45423/18.json",
+          "source_image_path": "data/StorageFurniture/45423/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45423@18.json"
+        },
+        {
+          "id": "StorageFurniture@45423@19",
+          "category": "StorageFurniture",
+          "model_id": "45423",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/45423/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45423/19.json",
+          "source_image_path": "data/StorageFurniture/45423/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45423@19.json"
+        },
+        {
+          "id": "StorageFurniture@45573@18",
+          "category": "StorageFurniture",
+          "model_id": "45573",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/45573/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45573/18.json",
+          "source_image_path": "data/StorageFurniture/45573/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45573@18.json"
+        },
+        {
+          "id": "StorageFurniture@45573@19",
+          "category": "StorageFurniture",
+          "model_id": "45573",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/45573/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45573/19.json",
+          "source_image_path": "data/StorageFurniture/45573/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45573@19.json"
+        },
+        {
+          "id": "StorageFurniture@45575@18",
+          "category": "StorageFurniture",
+          "model_id": "45575",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/45575/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45575/18.json",
+          "source_image_path": "data/StorageFurniture/45575/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45575@18.json"
+        },
+        {
+          "id": "StorageFurniture@45575@19",
+          "category": "StorageFurniture",
+          "model_id": "45575",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/45575/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45575/19.json",
+          "source_image_path": "data/StorageFurniture/45575/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45575@19.json"
+        },
+        {
+          "id": "StorageFurniture@45600@18",
+          "category": "StorageFurniture",
+          "model_id": "45600",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/45600/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45600/18.json",
+          "source_image_path": "data/StorageFurniture/45600/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45600@18.json"
+        },
+        {
+          "id": "StorageFurniture@45600@19",
+          "category": "StorageFurniture",
+          "model_id": "45600",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/45600/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45600/19.json",
+          "source_image_path": "data/StorageFurniture/45600/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45600@19.json"
+        },
+        {
+          "id": "StorageFurniture@45612@18",
+          "category": "StorageFurniture",
+          "model_id": "45612",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/45612/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45612/18.json",
+          "source_image_path": "data/StorageFurniture/45612/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45612@18.json"
+        },
+        {
+          "id": "StorageFurniture@45612@19",
+          "category": "StorageFurniture",
+          "model_id": "45612",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/45612/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45612/19.json",
+          "source_image_path": "data/StorageFurniture/45612/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45612@19.json"
+        },
+        {
+          "id": "StorageFurniture@45620@18",
+          "category": "StorageFurniture",
+          "model_id": "45620",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/45620/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45620/18.json",
+          "source_image_path": "data/StorageFurniture/45620/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45620@18.json"
+        },
+        {
+          "id": "StorageFurniture@45620@19",
+          "category": "StorageFurniture",
+          "model_id": "45620",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/45620/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45620/19.json",
+          "source_image_path": "data/StorageFurniture/45620/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45620@19.json"
+        },
+        {
+          "id": "StorageFurniture@45661@18",
+          "category": "StorageFurniture",
+          "model_id": "45661",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/45661/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45661/18.json",
+          "source_image_path": "data/StorageFurniture/45661/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45661@18.json"
+        },
+        {
+          "id": "StorageFurniture@45661@19",
+          "category": "StorageFurniture",
+          "model_id": "45661",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/45661/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45661/19.json",
+          "source_image_path": "data/StorageFurniture/45661/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45661@19.json"
+        },
+        {
+          "id": "StorageFurniture@45662@18",
+          "category": "StorageFurniture",
+          "model_id": "45662",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/45662/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45662/18.json",
+          "source_image_path": "data/StorageFurniture/45662/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45662@18.json"
+        },
+        {
+          "id": "StorageFurniture@45662@19",
+          "category": "StorageFurniture",
+          "model_id": "45662",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/45662/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45662/19.json",
+          "source_image_path": "data/StorageFurniture/45662/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45662@19.json"
+        },
+        {
+          "id": "StorageFurniture@45696@18",
+          "category": "StorageFurniture",
+          "model_id": "45696",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/45696/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45696/18.json",
+          "source_image_path": "data/StorageFurniture/45696/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45696@18.json"
+        },
+        {
+          "id": "StorageFurniture@45696@19",
+          "category": "StorageFurniture",
+          "model_id": "45696",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/45696/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45696/19.json",
+          "source_image_path": "data/StorageFurniture/45696/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45696@19.json"
+        },
+        {
+          "id": "StorageFurniture@45699@18",
+          "category": "StorageFurniture",
+          "model_id": "45699",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/45699/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45699/18.json",
+          "source_image_path": "data/StorageFurniture/45699/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45699@18.json"
+        },
+        {
+          "id": "StorageFurniture@45699@19",
+          "category": "StorageFurniture",
+          "model_id": "45699",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/45699/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45699/19.json",
+          "source_image_path": "data/StorageFurniture/45699/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45699@19.json"
+        },
+        {
+          "id": "StorageFurniture@45717@18",
+          "category": "StorageFurniture",
+          "model_id": "45717",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/45717/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45717/18.json",
+          "source_image_path": "data/StorageFurniture/45717/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45717@18.json"
+        },
+        {
+          "id": "StorageFurniture@45717@19",
+          "category": "StorageFurniture",
+          "model_id": "45717",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/45717/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45717/19.json",
+          "source_image_path": "data/StorageFurniture/45717/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45717@19.json"
+        },
+        {
+          "id": "StorageFurniture@45908@18",
+          "category": "StorageFurniture",
+          "model_id": "45908",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/45908/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45908/18.json",
+          "source_image_path": "data/StorageFurniture/45908/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45908@18.json"
+        },
+        {
+          "id": "StorageFurniture@45908@19",
+          "category": "StorageFurniture",
+          "model_id": "45908",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/45908/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45908/19.json",
+          "source_image_path": "data/StorageFurniture/45908/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45908@19.json"
+        },
+        {
+          "id": "StorageFurniture@45915@18",
+          "category": "StorageFurniture",
+          "model_id": "45915",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/45915/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45915/18.json",
+          "source_image_path": "data/StorageFurniture/45915/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45915@18.json"
+        },
+        {
+          "id": "StorageFurniture@45915@19",
+          "category": "StorageFurniture",
+          "model_id": "45915",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/45915/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/45915/19.json",
+          "source_image_path": "data/StorageFurniture/45915/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@45915@19.json"
+        },
+        {
+          "id": "StorageFurniture@46002@18",
+          "category": "StorageFurniture",
+          "model_id": "46002",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/46002/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/46002/18.json",
+          "source_image_path": "data/StorageFurniture/46002/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@46002@18.json"
+        },
+        {
+          "id": "StorageFurniture@46002@19",
+          "category": "StorageFurniture",
+          "model_id": "46002",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/46002/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/46002/19.json",
+          "source_image_path": "data/StorageFurniture/46002/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@46002@19.json"
+        },
+        {
+          "id": "StorageFurniture@46029@18",
+          "category": "StorageFurniture",
+          "model_id": "46029",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/46029/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/46029/18.json",
+          "source_image_path": "data/StorageFurniture/46029/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@46029@18.json"
+        },
+        {
+          "id": "StorageFurniture@46029@19",
+          "category": "StorageFurniture",
+          "model_id": "46029",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/46029/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/46029/19.json",
+          "source_image_path": "data/StorageFurniture/46029/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@46029@19.json"
+        },
+        {
+          "id": "StorageFurniture@46045@18",
+          "category": "StorageFurniture",
+          "model_id": "46045",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/46045/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/46045/18.json",
+          "source_image_path": "data/StorageFurniture/46045/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@46045@18.json"
+        },
+        {
+          "id": "StorageFurniture@46045@19",
+          "category": "StorageFurniture",
+          "model_id": "46045",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/46045/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/46045/19.json",
+          "source_image_path": "data/StorageFurniture/46045/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@46045@19.json"
+        },
+        {
+          "id": "StorageFurniture@46107@18",
+          "category": "StorageFurniture",
+          "model_id": "46107",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/46107/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/46107/18.json",
+          "source_image_path": "data/StorageFurniture/46107/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@46107@18.json"
+        },
+        {
+          "id": "StorageFurniture@46107@19",
+          "category": "StorageFurniture",
+          "model_id": "46107",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/46107/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/46107/19.json",
+          "source_image_path": "data/StorageFurniture/46107/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@46107@19.json"
+        },
+        {
+          "id": "StorageFurniture@46108@18",
+          "category": "StorageFurniture",
+          "model_id": "46108",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/46108/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/46108/18.json",
+          "source_image_path": "data/StorageFurniture/46108/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@46108@18.json"
+        },
+        {
+          "id": "StorageFurniture@46108@19",
+          "category": "StorageFurniture",
+          "model_id": "46108",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/46108/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/46108/19.json",
+          "source_image_path": "data/StorageFurniture/46108/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@46108@19.json"
+        },
+        {
+          "id": "StorageFurniture@46179@18",
+          "category": "StorageFurniture",
+          "model_id": "46179",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/46179/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/46179/18.json",
+          "source_image_path": "data/StorageFurniture/46179/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@46179@18.json"
+        },
+        {
+          "id": "StorageFurniture@46179@19",
+          "category": "StorageFurniture",
+          "model_id": "46179",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/46179/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/46179/19.json",
+          "source_image_path": "data/StorageFurniture/46179/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@46179@19.json"
+        },
+        {
+          "id": "StorageFurniture@46439@18",
+          "category": "StorageFurniture",
+          "model_id": "46439",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/46439/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/46439/18.json",
+          "source_image_path": "data/StorageFurniture/46439/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@46439@18.json"
+        },
+        {
+          "id": "StorageFurniture@46439@19",
+          "category": "StorageFurniture",
+          "model_id": "46439",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/46439/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/46439/19.json",
+          "source_image_path": "data/StorageFurniture/46439/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@46439@19.json"
+        },
+        {
+          "id": "StorageFurniture@46480@18",
+          "category": "StorageFurniture",
+          "model_id": "46480",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/46480/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/46480/18.json",
+          "source_image_path": "data/StorageFurniture/46480/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@46480@18.json"
+        },
+        {
+          "id": "StorageFurniture@46480@19",
+          "category": "StorageFurniture",
+          "model_id": "46480",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/46480/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/46480/19.json",
+          "source_image_path": "data/StorageFurniture/46480/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@46480@19.json"
+        },
+        {
+          "id": "StorageFurniture@46549@18",
+          "category": "StorageFurniture",
+          "model_id": "46549",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/46549/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/46549/18.json",
+          "source_image_path": "data/StorageFurniture/46549/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@46549@18.json"
+        },
+        {
+          "id": "StorageFurniture@46549@19",
+          "category": "StorageFurniture",
+          "model_id": "46549",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/46549/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/46549/19.json",
+          "source_image_path": "data/StorageFurniture/46549/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@46549@19.json"
+        },
+        {
+          "id": "StorageFurniture@46655@18",
+          "category": "StorageFurniture",
+          "model_id": "46655",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/46655/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/46655/18.json",
+          "source_image_path": "data/StorageFurniture/46655/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@46655@18.json"
+        },
+        {
+          "id": "StorageFurniture@46655@19",
+          "category": "StorageFurniture",
+          "model_id": "46655",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/46655/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/46655/19.json",
+          "source_image_path": "data/StorageFurniture/46655/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@46655@19.json"
+        },
+        {
+          "id": "StorageFurniture@46787@18",
+          "category": "StorageFurniture",
+          "model_id": "46787",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/46787/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/46787/18.json",
+          "source_image_path": "data/StorageFurniture/46787/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@46787@18.json"
+        },
+        {
+          "id": "StorageFurniture@46787@19",
+          "category": "StorageFurniture",
+          "model_id": "46787",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/46787/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/46787/19.json",
+          "source_image_path": "data/StorageFurniture/46787/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@46787@19.json"
+        },
+        {
+          "id": "StorageFurniture@46896@18",
+          "category": "StorageFurniture",
+          "model_id": "46896",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/46896/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/46896/18.json",
+          "source_image_path": "data/StorageFurniture/46896/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@46896@18.json"
+        },
+        {
+          "id": "StorageFurniture@46896@19",
+          "category": "StorageFurniture",
+          "model_id": "46896",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/46896/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/46896/19.json",
+          "source_image_path": "data/StorageFurniture/46896/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@46896@19.json"
+        },
+        {
+          "id": "StorageFurniture@46955@18",
+          "category": "StorageFurniture",
+          "model_id": "46955",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/46955/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/46955/18.json",
+          "source_image_path": "data/StorageFurniture/46955/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@46955@18.json"
+        },
+        {
+          "id": "StorageFurniture@46955@19",
+          "category": "StorageFurniture",
+          "model_id": "46955",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/46955/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/46955/19.json",
+          "source_image_path": "data/StorageFurniture/46955/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@46955@19.json"
+        },
+        {
+          "id": "StorageFurniture@46981@18",
+          "category": "StorageFurniture",
+          "model_id": "46981",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/46981/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/46981/18.json",
+          "source_image_path": "data/StorageFurniture/46981/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@46981@18.json"
+        },
+        {
+          "id": "StorageFurniture@46981@19",
+          "category": "StorageFurniture",
+          "model_id": "46981",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/46981/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/46981/19.json",
+          "source_image_path": "data/StorageFurniture/46981/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@46981@19.json"
+        },
+        {
+          "id": "StorageFurniture@47168@18",
+          "category": "StorageFurniture",
+          "model_id": "47168",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/47168/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/47168/18.json",
+          "source_image_path": "data/StorageFurniture/47168/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@47168@18.json"
+        },
+        {
+          "id": "StorageFurniture@47168@19",
+          "category": "StorageFurniture",
+          "model_id": "47168",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/47168/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/47168/19.json",
+          "source_image_path": "data/StorageFurniture/47168/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@47168@19.json"
+        },
+        {
+          "id": "StorageFurniture@47180@18",
+          "category": "StorageFurniture",
+          "model_id": "47180",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/47180/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/47180/18.json",
+          "source_image_path": "data/StorageFurniture/47180/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@47180@18.json"
+        },
+        {
+          "id": "StorageFurniture@47180@19",
+          "category": "StorageFurniture",
+          "model_id": "47180",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/47180/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/47180/19.json",
+          "source_image_path": "data/StorageFurniture/47180/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@47180@19.json"
+        },
+        {
+          "id": "StorageFurniture@47185@18",
+          "category": "StorageFurniture",
+          "model_id": "47185",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/47185/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/47185/18.json",
+          "source_image_path": "data/StorageFurniture/47185/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@47185@18.json"
+        },
+        {
+          "id": "StorageFurniture@47185@19",
+          "category": "StorageFurniture",
+          "model_id": "47185",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/47185/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/47185/19.json",
+          "source_image_path": "data/StorageFurniture/47185/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@47185@19.json"
+        },
+        {
+          "id": "StorageFurniture@47227@18",
+          "category": "StorageFurniture",
+          "model_id": "47227",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/47227/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/47227/18.json",
+          "source_image_path": "data/StorageFurniture/47227/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@47227@18.json"
+        },
+        {
+          "id": "StorageFurniture@47227@19",
+          "category": "StorageFurniture",
+          "model_id": "47227",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/47227/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/47227/19.json",
+          "source_image_path": "data/StorageFurniture/47227/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@47227@19.json"
+        },
+        {
+          "id": "StorageFurniture@47233@18",
+          "category": "StorageFurniture",
+          "model_id": "47233",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/47233/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/47233/18.json",
+          "source_image_path": "data/StorageFurniture/47233/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@47233@18.json"
+        },
+        {
+          "id": "StorageFurniture@47233@19",
+          "category": "StorageFurniture",
+          "model_id": "47233",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/47233/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/47233/19.json",
+          "source_image_path": "data/StorageFurniture/47233/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@47233@19.json"
+        },
+        {
+          "id": "StorageFurniture@47315@18",
+          "category": "StorageFurniture",
+          "model_id": "47315",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/47315/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/47315/18.json",
+          "source_image_path": "data/StorageFurniture/47315/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@47315@18.json"
+        },
+        {
+          "id": "StorageFurniture@47315@19",
+          "category": "StorageFurniture",
+          "model_id": "47315",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/47315/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/47315/19.json",
+          "source_image_path": "data/StorageFurniture/47315/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@47315@19.json"
+        },
+        {
+          "id": "StorageFurniture@47648@18",
+          "category": "StorageFurniture",
+          "model_id": "47648",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/47648/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/47648/18.json",
+          "source_image_path": "data/StorageFurniture/47648/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@47648@18.json"
+        },
+        {
+          "id": "StorageFurniture@47648@19",
+          "category": "StorageFurniture",
+          "model_id": "47648",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/47648/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/47648/19.json",
+          "source_image_path": "data/StorageFurniture/47648/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@47648@19.json"
+        },
+        {
+          "id": "StorageFurniture@47701@18",
+          "category": "StorageFurniture",
+          "model_id": "47701",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/47701/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/47701/18.json",
+          "source_image_path": "data/StorageFurniture/47701/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@47701@18.json"
+        },
+        {
+          "id": "StorageFurniture@47701@19",
+          "category": "StorageFurniture",
+          "model_id": "47701",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/47701/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/47701/19.json",
+          "source_image_path": "data/StorageFurniture/47701/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@47701@19.json"
+        },
+        {
+          "id": "StorageFurniture@47747@18",
+          "category": "StorageFurniture",
+          "model_id": "47747",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/47747/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/47747/18.json",
+          "source_image_path": "data/StorageFurniture/47747/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@47747@18.json"
+        },
+        {
+          "id": "StorageFurniture@47747@19",
+          "category": "StorageFurniture",
+          "model_id": "47747",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/47747/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/47747/19.json",
+          "source_image_path": "data/StorageFurniture/47747/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@47747@19.json"
+        },
+        {
+          "id": "StorageFurniture@48023@18",
+          "category": "StorageFurniture",
+          "model_id": "48023",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/48023/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/48023/18.json",
+          "source_image_path": "data/StorageFurniture/48023/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@48023@18.json"
+        },
+        {
+          "id": "StorageFurniture@48023@19",
+          "category": "StorageFurniture",
+          "model_id": "48023",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/48023/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/48023/19.json",
+          "source_image_path": "data/StorageFurniture/48023/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@48023@19.json"
+        },
+        {
+          "id": "StorageFurniture@48167@18",
+          "category": "StorageFurniture",
+          "model_id": "48167",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/48167/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/48167/18.json",
+          "source_image_path": "data/StorageFurniture/48167/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@48167@18.json"
+        },
+        {
+          "id": "StorageFurniture@48167@19",
+          "category": "StorageFurniture",
+          "model_id": "48167",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/48167/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/48167/19.json",
+          "source_image_path": "data/StorageFurniture/48167/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@48167@19.json"
+        },
+        {
+          "id": "StorageFurniture@48177@18",
+          "category": "StorageFurniture",
+          "model_id": "48177",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/48177/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/48177/18.json",
+          "source_image_path": "data/StorageFurniture/48177/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@48177@18.json"
+        },
+        {
+          "id": "StorageFurniture@48177@19",
+          "category": "StorageFurniture",
+          "model_id": "48177",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/48177/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/48177/19.json",
+          "source_image_path": "data/StorageFurniture/48177/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@48177@19.json"
+        },
+        {
+          "id": "StorageFurniture@48513@18",
+          "category": "StorageFurniture",
+          "model_id": "48513",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/48513/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/48513/18.json",
+          "source_image_path": "data/StorageFurniture/48513/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@48513@18.json"
+        },
+        {
+          "id": "StorageFurniture@48513@19",
+          "category": "StorageFurniture",
+          "model_id": "48513",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/48513/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/48513/19.json",
+          "source_image_path": "data/StorageFurniture/48513/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@48513@19.json"
+        },
+        {
+          "id": "StorageFurniture@48721@18",
+          "category": "StorageFurniture",
+          "model_id": "48721",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/48721/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/48721/18.json",
+          "source_image_path": "data/StorageFurniture/48721/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@48721@18.json"
+        },
+        {
+          "id": "StorageFurniture@48721@19",
+          "category": "StorageFurniture",
+          "model_id": "48721",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/48721/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/48721/19.json",
+          "source_image_path": "data/StorageFurniture/48721/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@48721@19.json"
+        },
+        {
+          "id": "StorageFurniture@48740@18",
+          "category": "StorageFurniture",
+          "model_id": "48740",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/48740/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/48740/18.json",
+          "source_image_path": "data/StorageFurniture/48740/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@48740@18.json"
+        },
+        {
+          "id": "StorageFurniture@48740@19",
+          "category": "StorageFurniture",
+          "model_id": "48740",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/48740/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/48740/19.json",
+          "source_image_path": "data/StorageFurniture/48740/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@48740@19.json"
+        },
+        {
+          "id": "StorageFurniture@48797@18",
+          "category": "StorageFurniture",
+          "model_id": "48797",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/48797/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/48797/18.json",
+          "source_image_path": "data/StorageFurniture/48797/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@48797@18.json"
+        },
+        {
+          "id": "StorageFurniture@48797@19",
+          "category": "StorageFurniture",
+          "model_id": "48797",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/48797/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/48797/19.json",
+          "source_image_path": "data/StorageFurniture/48797/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@48797@19.json"
+        },
+        {
+          "id": "StorageFurniture@49038@18",
+          "category": "StorageFurniture",
+          "model_id": "49038",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/49038/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/49038/18.json",
+          "source_image_path": "data/StorageFurniture/49038/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@49038@18.json"
+        },
+        {
+          "id": "StorageFurniture@49038@19",
+          "category": "StorageFurniture",
+          "model_id": "49038",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/49038/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/49038/19.json",
+          "source_image_path": "data/StorageFurniture/49038/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@49038@19.json"
+        },
+        {
+          "id": "StorageFurniture@49133@18",
+          "category": "StorageFurniture",
+          "model_id": "49133",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/StorageFurniture/49133/18.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/49133/18.json",
+          "source_image_path": "data/StorageFurniture/49133/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@49133@18.json"
+        },
+        {
+          "id": "StorageFurniture@49133@19",
+          "category": "StorageFurniture",
+          "model_id": "49133",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/StorageFurniture/49133/19.png",
+          "graph_url": "/demo_samples/graphs/StorageFurniture/49133/19.json",
+          "source_image_path": "data/StorageFurniture/49133/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/StorageFurniture@49133@19.json"
+        }
+      ]
+    },
+    {
+      "name": "Table",
+      "count": 20,
+      "samples": [
+        {
+          "id": "Table@19855@18",
+          "category": "Table",
+          "model_id": "19855",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/Table/19855/18.png",
+          "graph_url": "/demo_samples/graphs/Table/19855/18.json",
+          "source_image_path": "data/Table/19855/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Table@19855@18.json"
+        },
+        {
+          "id": "Table@19855@19",
+          "category": "Table",
+          "model_id": "19855",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/Table/19855/19.png",
+          "graph_url": "/demo_samples/graphs/Table/19855/19.json",
+          "source_image_path": "data/Table/19855/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Table@19855@19.json"
+        },
+        {
+          "id": "Table@22241@18",
+          "category": "Table",
+          "model_id": "22241",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/Table/22241/18.png",
+          "graph_url": "/demo_samples/graphs/Table/22241/18.json",
+          "source_image_path": "data/Table/22241/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Table@22241@18.json"
+        },
+        {
+          "id": "Table@22241@19",
+          "category": "Table",
+          "model_id": "22241",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/Table/22241/19.png",
+          "graph_url": "/demo_samples/graphs/Table/22241/19.json",
+          "source_image_path": "data/Table/22241/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Table@22241@19.json"
+        },
+        {
+          "id": "Table@23807@18",
+          "category": "Table",
+          "model_id": "23807",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/Table/23807/18.png",
+          "graph_url": "/demo_samples/graphs/Table/23807/18.json",
+          "source_image_path": "data/Table/23807/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Table@23807@18.json"
+        },
+        {
+          "id": "Table@23807@19",
+          "category": "Table",
+          "model_id": "23807",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/Table/23807/19.png",
+          "graph_url": "/demo_samples/graphs/Table/23807/19.json",
+          "source_image_path": "data/Table/23807/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Table@23807@19.json"
+        },
+        {
+          "id": "Table@25144@18",
+          "category": "Table",
+          "model_id": "25144",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/Table/25144/18.png",
+          "graph_url": "/demo_samples/graphs/Table/25144/18.json",
+          "source_image_path": "data/Table/25144/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Table@25144@18.json"
+        },
+        {
+          "id": "Table@25144@19",
+          "category": "Table",
+          "model_id": "25144",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/Table/25144/19.png",
+          "graph_url": "/demo_samples/graphs/Table/25144/19.json",
+          "source_image_path": "data/Table/25144/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Table@25144@19.json"
+        },
+        {
+          "id": "Table@26503@18",
+          "category": "Table",
+          "model_id": "26503",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/Table/26503/18.png",
+          "graph_url": "/demo_samples/graphs/Table/26503/18.json",
+          "source_image_path": "data/Table/26503/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Table@26503@18.json"
+        },
+        {
+          "id": "Table@26503@19",
+          "category": "Table",
+          "model_id": "26503",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/Table/26503/19.png",
+          "graph_url": "/demo_samples/graphs/Table/26503/19.json",
+          "source_image_path": "data/Table/26503/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Table@26503@19.json"
+        },
+        {
+          "id": "Table@27619@18",
+          "category": "Table",
+          "model_id": "27619",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/Table/27619/18.png",
+          "graph_url": "/demo_samples/graphs/Table/27619/18.json",
+          "source_image_path": "data/Table/27619/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Table@27619@18.json"
+        },
+        {
+          "id": "Table@27619@19",
+          "category": "Table",
+          "model_id": "27619",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/Table/27619/19.png",
+          "graph_url": "/demo_samples/graphs/Table/27619/19.json",
+          "source_image_path": "data/Table/27619/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Table@27619@19.json"
+        },
+        {
+          "id": "Table@30238@18",
+          "category": "Table",
+          "model_id": "30238",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/Table/30238/18.png",
+          "graph_url": "/demo_samples/graphs/Table/30238/18.json",
+          "source_image_path": "data/Table/30238/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Table@30238@18.json"
+        },
+        {
+          "id": "Table@30238@19",
+          "category": "Table",
+          "model_id": "30238",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/Table/30238/19.png",
+          "graph_url": "/demo_samples/graphs/Table/30238/19.json",
+          "source_image_path": "data/Table/30238/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Table@30238@19.json"
+        },
+        {
+          "id": "Table@31249@18",
+          "category": "Table",
+          "model_id": "31249",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/Table/31249/18.png",
+          "graph_url": "/demo_samples/graphs/Table/31249/18.json",
+          "source_image_path": "data/Table/31249/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Table@31249@18.json"
+        },
+        {
+          "id": "Table@31249@19",
+          "category": "Table",
+          "model_id": "31249",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/Table/31249/19.png",
+          "graph_url": "/demo_samples/graphs/Table/31249/19.json",
+          "source_image_path": "data/Table/31249/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Table@31249@19.json"
+        },
+        {
+          "id": "Table@31601@18",
+          "category": "Table",
+          "model_id": "31601",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/Table/31601/18.png",
+          "graph_url": "/demo_samples/graphs/Table/31601/18.json",
+          "source_image_path": "data/Table/31601/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Table@31601@18.json"
+        },
+        {
+          "id": "Table@31601@19",
+          "category": "Table",
+          "model_id": "31601",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/Table/31601/19.png",
+          "graph_url": "/demo_samples/graphs/Table/31601/19.json",
+          "source_image_path": "data/Table/31601/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Table@31601@19.json"
+        },
+        {
+          "id": "Table@32566@18",
+          "category": "Table",
+          "model_id": "32566",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/Table/32566/18.png",
+          "graph_url": "/demo_samples/graphs/Table/32566/18.json",
+          "source_image_path": "data/Table/32566/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Table@32566@18.json"
+        },
+        {
+          "id": "Table@32566@19",
+          "category": "Table",
+          "model_id": "32566",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/Table/32566/19.png",
+          "graph_url": "/demo_samples/graphs/Table/32566/19.json",
+          "source_image_path": "data/Table/32566/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/Table@32566@19.json"
+        }
+      ]
+    },
+    {
+      "name": "WashingMachine",
+      "count": 2,
+      "samples": [
+        {
+          "id": "WashingMachine@103425@18",
+          "category": "WashingMachine",
+          "model_id": "103425",
+          "view_id": "18",
+          "image_url": "/demo_samples/images/WashingMachine/103425/18.png",
+          "graph_url": "/demo_samples/graphs/WashingMachine/103425/18.json",
+          "source_image_path": "data/WashingMachine/103425/imgs/18.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/WashingMachine@103425@18.json"
+        },
+        {
+          "id": "WashingMachine@103425@19",
+          "category": "WashingMachine",
+          "model_id": "103425",
+          "view_id": "19",
+          "image_url": "/demo_samples/images/WashingMachine/103425/19.png",
+          "graph_url": "/demo_samples/graphs/WashingMachine/103425/19.json",
+          "source_image_path": "data/WashingMachine/103425/imgs/19.png",
+          "source_graph_path": "singapo/exps/pred_graph/pred_graph/pm_test/WashingMachine@103425@19.json"
+        }
+      ]
+    }
+  ],
+  "skipped": []
+}

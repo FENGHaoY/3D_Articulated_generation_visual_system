@@ -1,0 +1,42 @@
+{
+    "diffuse_tree": [
+        {
+            "id": 0,
+            "parent": -1,
+            "name": "base",
+            "children": [
+                1,
+                3
+            ]
+        },
+        {
+            "id": 1,
+            "parent": 0,
+            "name": "drawer",
+            "children": [
+                2
+            ]
+        },
+        {
+            "id": 2,
+            "parent": 1,
+            "name": "handle",
+            "children": []
+        },
+        {
+            "id": 3,
+            "parent": 0,
+            "name": "drawer",
+            "children": [
+                4
+            ]
+        },
+        {
+            "id": 4,
+            "parent": 3,
+            "name": "handle",
+            "children": []
+        }
+    ],
+    "original_response": "I recognize all the articulated parts in the table, they are: base, drawer (attach to base), handle (attach to drawer), drawer (attach to base), handle (attach to drawer).\n\nThe part connectivity graph for the object is:\n```json\n{\"base\": [{\"drawer\": [{\"handle\": []}]}, {\"drawer\": [{\"handle\": []}]}]}\n```"
+}

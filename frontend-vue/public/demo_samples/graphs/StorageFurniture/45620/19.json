@@ -1,0 +1,27 @@
+{
+    "diffuse_tree": [
+        {
+            "id": 0,
+            "parent": -1,
+            "name": "base",
+            "children": [
+                1
+            ]
+        },
+        {
+            "id": 1,
+            "parent": 0,
+            "name": "door",
+            "children": [
+                2
+            ]
+        },
+        {
+            "id": 2,
+            "parent": 1,
+            "name": "handle",
+            "children": []
+        }
+    ],
+    "original_response": "I recognize all the articulated parts of a storage furniture, they are: base, door (attach to base), handle (attach to door).\n\nThe part connectivity graph for the object is:\n```json\n{\"base\": [{\"door\": [{\"handle\": []}]}]}\n```"
+}

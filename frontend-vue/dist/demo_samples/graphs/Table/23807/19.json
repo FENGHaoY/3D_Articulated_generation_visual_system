@@ -1,0 +1,11 @@
+{
+    "diffuse_tree": [
+        {
+            "id": 0,
+            "parent": -1,
+            "name": "base",
+            "children": []
+        }
+    ],
+    "original_response": "I recognize all the articulated parts in a table, they are: base.\n\nThe part connectivity graph for the object is:\n```json\n{\"base\": []}\n```"
+}

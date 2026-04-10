@@ -1,0 +1,27 @@
+{
+    "diffuse_tree": [
+        {
+            "id": 0,
+            "parent": -1,
+            "name": "base",
+            "children": [
+                1
+            ]
+        },
+        {
+            "id": 1,
+            "parent": 0,
+            "name": "drawer",
+            "children": [
+                2
+            ]
+        },
+        {
+            "id": 2,
+            "parent": 1,
+            "name": "knob",
+            "children": []
+        }
+    ],
+    "original_response": "I recognize all the articulated parts in a table, they are: base, drawer (attach to base), knob (attach to drawer).\n\nThe part connectivity graph for the object is:\n```json\n{\"base\": [{\"drawer\": [{\"knob\": []}]}]}\n```"
+}
